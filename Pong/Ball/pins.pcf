@@ -1,0 +1,52 @@
+# LED pins:
+set_io o_LED_1 56
+set_io o_LED_2 57
+set_io o_LED_3 59
+set_io o_LED_4 60
+
+# Push-button switches:
+set_io i_Switch_1 53
+set_io i_Switch_2 51
+set_io i_Switch_3 54
+set_io i_Switch_4 52
+
+# 7-Segment display (tens)
+set_io o_Segment1_A 3
+set_io o_Segment1_B 4
+set_io o_Segment1_C 93
+set_io o_Segment1_D 91
+set_io o_Segment1_E 90
+set_io o_Segment1_F 1
+set_io o_Segment1_G 2
+
+# 7-Segment display (ones):
+set_io o_Segment2_A 100
+set_io o_Segment2_B 99
+set_io o_Segment2_C 97
+set_io o_Segment2_D 95
+set_io o_Segment2_E 94
+set_io o_Segment2_F 8
+set_io o_Segment2_G 96
+
+#Clock pins:
+set_io i_Clk 15
+
+#UART pins:
+set_io i_UART_RX 73
+set_io o_UART_TX 74
+
+#VGA pins:
+set_io o_VGA_HSync 26
+set_io o_VGA_VSync 27
+
+set_io o_VGA_Red_0 36
+set_io o_VGA_Red_1 37
+set_io o_VGA_Red_2 40
+
+set_io o_VGA_Green_0 29
+set_io o_VGA_Green_1 30
+set_io o_VGA_Green_2 33
+
+set_io o_VGA_Blue_0 28
+set_io o_VGA_Blue_1 41
+set_io o_VGA_Blue_2 42
